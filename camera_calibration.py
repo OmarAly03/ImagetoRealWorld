@@ -23,7 +23,7 @@ def calibrate():
 
     # Load all images in the directory
     image_files = []
-    for ext in ['*.png', '*.jpg', '*.jpeg']:
+    for ext in ['*.png', '*.jpg', '*.jpeg', '*.JPG']:
         image_files.extend(glob.glob(f"{CALIB_PATH}/{ext}"))
 
     if not image_files:

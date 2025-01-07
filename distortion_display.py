@@ -81,6 +81,3 @@ def run_distortion_analysis():
     
     distorted, undistorted = project_3d_to_2d(test_points, rvec, tvec, mtx, dist)
     print_test_results(test_points, distorted, undistorted)
-
-if __name__ == "__main__":
-    run_distortion_analysis()
