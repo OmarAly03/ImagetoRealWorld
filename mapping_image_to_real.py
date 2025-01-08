@@ -59,3 +59,8 @@ def run_projection(world_point=(100, 100, 0)):
     visualize_projection(x, y)
     
     return x, y
+
+if __name__ == "__main__":
+    # Example usage
+    world_point = (100, 100, 0)  # mm
+    image_coords = run_projection(world_point)
