@@ -74,11 +74,3 @@ def run_simulation(start_point=(0,0,0), end_point=(100,100,0),
     plt.show()
     
     return ani
-
-if __name__ == "__main__":
-    # Example usage
-    start_point = (0, 0, 0)
-    end_point = (100, 100, 0)
-    box_dims = (10, 7, 1)
-    
-    ani = run_simulation(start_point, end_point, box_dims)
